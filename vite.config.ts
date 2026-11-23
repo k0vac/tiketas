@@ -1,32 +1,68 @@
 import { defineConfig } from 'vite'
 import { devtools } from '@tanstack/devtools-vite'
-
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
-
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
+import movies from './src/assets/data/movies.json' with { type: 'json' }
+
+function githubPagesBase() {
+  if (process.env.VITE_BASE_PATH) {
+    const value = process.env.VITE_BASE_PATH
+    return value.endsWith('/') ? value : `${value}/`
+  }
+
+  const repo = process.env.GITHUB_REPOSITORY?.split('/')[1]
+  if (process.env.GITHUB_PAGES === 'true' && repo && !repo.endsWith('.github.io')) {
+    return `/${repo}/`
+  }
+
+  return '/'
+}
+
+const base = githubPagesBase()
+const routerBasepath = base === '/' ? '/' : base.replace(/\/$/, '')
+
+const moviePages = movies.map((movie) => ({
+  path: `/movies/${movie.slug}`,
+}))
 
 const config = defineConfig({
+  base,
   resolve: { tsconfigPaths: true },
   plugins: [
     devtools(),
     nitro({ rollupConfig: { external: [/^@sentry\//] } }),
     tailwindcss(),
-    tanstackStart(
-      {
+    tanstackStart({
+      router: {
+        basepath: routerBasepath,
+      },
+      spa: {
+        enabled: true,
         prerender: {
+          enabled: true,
+          crawlLinks: true,
+        },
+      },
+      pages: [
+        { path: '/' },
+        { path: '/about' },
+        { path: '/snacks' },
+        ...moviePages,
+      ],
+      prerender: {
         enabled: true,
         crawlLinks: true,
         autoSubfolderIndex: true,
         failOnError: true,
-      }
-    },
-    ),
+        concurrency: 8,
+        filter: ({ path }) =>
+          routerBasepath === '/' || !path.startsWith(routerBasepath),
+      },
+    }),
     viteReact(),
   ],
 })
 
 export default config
-
-

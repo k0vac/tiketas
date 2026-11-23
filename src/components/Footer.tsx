@@ -1,5 +1,6 @@
 import { Link } from '@tanstack/react-router'
 import { cinema } from '#/lib/cinema.ts'
+import { withBase } from '#/lib/paths.ts'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -9,7 +10,7 @@ export default function Footer() {
       <div className="page-wrap grid gap-8 sm:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <img
-            src="/assets/img/brand/logotiketas.png"
+            src={withBase('/assets/img/brand/logotiketas.png') ?? ''}
             alt="Tiketas"
             className="mb-4 h-12 w-auto object-contain"
           />

@@ -1,7 +1,8 @@
 import { Link } from '@tanstack/react-router'
+import { withBase } from '#/lib/paths.ts'
 import ThemeToggle from './ThemeToggle'
 
-const logoSrc = '/assets/img/brand/logotiketas.png'
+const logoSrc = withBase('/assets/img/brand/logotiketas.png') ?? ''
 
 export default function Header() {
   return (

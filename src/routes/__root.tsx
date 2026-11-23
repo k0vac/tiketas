@@ -4,6 +4,7 @@ import { TanStackDevtools } from '@tanstack/react-devtools'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import NotFound from '../components/NotFound'
+import { withBase } from '../lib/paths'
 
 import appCss from '../styles.css?url'
 
@@ -35,7 +36,7 @@ export const Route = createRootRoute({
       },
       {
         rel: 'icon',
-        href: '/assets/img/brand/logotiketas.png',
+        href: withBase('/assets/img/brand/logotiketas.png') ?? '',
       },
     ],
   }),
@@ -54,17 +55,19 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <Header />
         {children}
         <Footer />
-        <TanStackDevtools
-          config={{
-            position: 'bottom-right',
-          }}
-          plugins={[
-            {
-              name: 'Tanstack Router',
-              render: <TanStackRouterDevtoolsPanel />,
-            },
-          ]}
-        />
+        {import.meta.env.DEV ? (
+          <TanStackDevtools
+            config={{
+              position: 'bottom-right',
+            }}
+            plugins={[
+              {
+                name: 'Tanstack Router',
+                render: <TanStackRouterDevtoolsPanel />,
+              },
+            ]}
+          />
+        ) : null}
         <Scripts />
       </body>
     </html>

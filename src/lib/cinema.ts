@@ -2,6 +2,7 @@ import concessionsJson from '#/assets/data/concessions.json' with { type: 'json'
 import screeningsJson from '#/assets/data/screenings.json' with { type: 'json' }
 import { movies } from '#/assets/movies.ts'
 import type { MovieProfile } from '#/assets/types.ts'
+import { withBase } from '#/lib/paths.ts'
 
 export type TicketPrices = {
   regular: number
@@ -56,7 +57,12 @@ export const cinema = schedule.cinema
 export const cinemaToday = schedule.today
 export const ticketTypes = schedule.ticketTypes
 export const screenings = schedule.screenings
-export const concessions = concessionsJson as Array<Concession>
+export const concessions = (concessionsJson as Array<Concession>).map(
+  (item) => ({
+    ...item,
+    image: withBase(item.image) ?? item.image,
+  }),
+)
 
 export const SAMPLE_TRAILER_KEY = 'aqz-KE-bpKQ'
 
