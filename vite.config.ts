@@ -1,10 +1,30 @@
-import { defineConfig } from 'vite'
+import { createLogger, defineConfig } from 'vite'
 import { devtools } from '@tanstack/devtools-vite'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
 import movies from './src/assets/data/movies.json' with { type: 'json' }
+
+const logger = createLogger()
+const warn = logger.warn.bind(logger)
+const warnOnce = logger.warnOnce.bind(logger)
+
+function isUseClientDirectiveWarning(message: string) {
+  return (
+    message.includes('MODULE_LEVEL_DIRECTIVE') && message.includes('use client')
+  )
+}
+
+logger.warn = (message, options) => {
+  if (isUseClientDirectiveWarning(message)) return
+  warn(message, options)
+}
+
+logger.warnOnce = (message, options) => {
+  if (isUseClientDirectiveWarning(message)) return
+  warnOnce(message, options)
+}
 
 function githubPagesBase() {
   if (process.env.VITE_BASE_PATH) {
@@ -29,6 +49,7 @@ const moviePages = movies.map((movie) => ({
 
 const config = defineConfig({
   base,
+  customLogger: logger,
   resolve: { tsconfigPaths: true },
   plugins: [
     devtools(),
@@ -57,8 +78,6 @@ const config = defineConfig({
         autoSubfolderIndex: true,
         failOnError: true,
         concurrency: 8,
-        filter: ({ path }) =>
-          routerBasepath === '/' || !path.startsWith(routerBasepath),
       },
     }),
     viteReact(),

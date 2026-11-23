@@ -5,6 +5,7 @@ import {
   mkdirSync,
   readdirSync,
   rmSync,
+  statSync,
   writeFileSync,
 } from 'node:fs'
 import { join } from 'node:path'
@@ -12,22 +13,41 @@ import { join } from 'node:path'
 const candidates = ['.output/public', 'dist/client', 'dist/public', 'dist']
 const publishDir = 'dist/client'
 
-function hasIndex(dir) {
-  return existsSync(join(dir, 'index.html'))
+function listDir(dir) {
+  if (!existsSync(dir)) return `${dir} (missing)`
+  return `${dir}: ${readdirSync(dir).join(', ') || '(empty)'}`
 }
 
-const outDir = candidates.find(hasIndex)
+function hasFile(dir, name) {
+  return existsSync(join(dir, name))
+}
+
+const outDir =
+  candidates.find((dir) => hasFile(dir, 'index.html')) ??
+  candidates.find((dir) => hasFile(dir, '_shell.html'))
 
 if (!outDir) {
-  console.error(
-    'Could not find a static index.html. Looked in:',
-    candidates.join(', '),
-  )
+  console.error('Could not find prerendered HTML. Directory contents:')
+  for (const dir of candidates) {
+    console.error(`- ${listDir(dir)}`)
+  }
+  process.exit(1)
+}
+
+const indexPath = join(outDir, 'index.html')
+const shellPath = join(outDir, '_shell.html')
+
+if (!existsSync(indexPath) && existsSync(shellPath)) {
+  copyFileSync(shellPath, indexPath)
+}
+
+if (!existsSync(indexPath)) {
+  console.error(`Found ${outDir} but it has no index.html or _shell.html`)
   process.exit(1)
 }
 
 writeFileSync(join(outDir, '.nojekyll'), '')
-copyFileSync(join(outDir, 'index.html'), join(outDir, '404.html'))
+copyFileSync(indexPath, join(outDir, '404.html'))
 
 if (outDir !== publishDir) {
   rmSync(publishDir, { recursive: true, force: true })
@@ -36,5 +56,7 @@ if (outDir !== publishDir) {
 }
 
 const listing = readdirSync(publishDir)
+const indexSize = statSync(join(publishDir, 'index.html')).size
 console.log(`Prepared GitHub Pages output in ${publishDir} (from ${outDir})`)
-console.log(`Top-level entries: ${listing.slice(0, 20).join(', ')}`)
+console.log(`index.html is ${indexSize} bytes`)
+console.log(`Top-level entries: ${listing.join(', ')}`)
