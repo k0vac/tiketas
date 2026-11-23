@@ -49,6 +49,13 @@ if (!existsSync(indexPath)) {
 writeFileSync(join(outDir, '.nojekyll'), '')
 copyFileSync(indexPath, join(outDir, '404.html'))
 
+for (const cname of ['CNAME', 'public/CNAME']) {
+  if (existsSync(cname)) {
+    copyFileSync(cname, join(outDir, 'CNAME'))
+    break
+  }
+}
+
 if (outDir !== publishDir) {
   rmSync(publishDir, { recursive: true, force: true })
   mkdirSync(publishDir, { recursive: true })

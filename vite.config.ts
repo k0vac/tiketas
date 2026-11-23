@@ -1,3 +1,4 @@
+import { existsSync } from 'node:fs'
 import { createLogger, defineConfig } from 'vite'
 import { devtools } from '@tanstack/devtools-vite'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
@@ -26,14 +27,27 @@ logger.warnOnce = (message, options) => {
   warnOnce(message, options)
 }
 
+function normalizeBase(value: string) {
+  if (!value || value === '/') return '/'
+  return value.endsWith('/') ? value : `${value}/`
+}
+
 function githubPagesBase() {
-  if (process.env.VITE_BASE_PATH) {
-    const value = process.env.VITE_BASE_PATH
-    return value.endsWith('/') ? value : `${value}/`
+  // Custom domains (CNAME) are served from the host root, not /repo-name/.
+  if (existsSync('CNAME') || existsSync('public/CNAME')) {
+    return '/'
+  }
+
+  if (Object.hasOwn(process.env, 'VITE_BASE_PATH')) {
+    return normalizeBase(process.env.VITE_BASE_PATH || '/')
   }
 
   const repo = process.env.GITHUB_REPOSITORY?.split('/')[1]
-  if (process.env.GITHUB_PAGES === 'true' && repo && !repo.endsWith('.github.io')) {
+  if (
+    (process.env.GITHUB_PAGES === 'true' || process.env.GITHUB_ACTIONS === 'true') &&
+    repo &&
+    !repo.endsWith('.github.io')
+  ) {
     return `/${repo}/`
   }
 
