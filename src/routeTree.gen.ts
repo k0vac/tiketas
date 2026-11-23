@@ -11,6 +11,8 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as SnacksRouteImport } from './routes/snacks'
+import { Route as MoviesSlugRouteImport } from './routes/movies/$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +24,49 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SnacksRoute = SnacksRouteImport.update({
+  id: '/snacks',
+  path: '/snacks',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MoviesSlugRoute = MoviesSlugRouteImport.update({
+  id: '/movies/$slug',
+  path: '/movies/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/snacks': typeof SnacksRoute
+  '/movies/$slug': typeof MoviesSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/snacks': typeof SnacksRoute
+  '/movies/$slug': typeof MoviesSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/snacks': typeof SnacksRoute
+  '/movies/$slug': typeof MoviesSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about'
+  fullPaths: '/' | '/about' | '/snacks' | '/movies/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about'
-  id: '__root__' | '/' | '/about'
+  to: '/' | '/about' | '/snacks' | '/movies/$slug'
+  id: '__root__' | '/' | '/about' | '/snacks' | '/movies/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  SnacksRoute: typeof SnacksRoute
+  MoviesSlugRoute: typeof MoviesSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +85,28 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/snacks': {
+      id: '/snacks'
+      path: '/snacks'
+      fullPath: '/snacks'
+      preLoaderRoute: typeof SnacksRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/movies/$slug': {
+      id: '/movies/$slug'
+      path: '/movies/$slug'
+      fullPath: '/movies/$slug'
+      preLoaderRoute: typeof MoviesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  SnacksRoute: SnacksRoute,
+  MoviesSlugRoute: MoviesSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

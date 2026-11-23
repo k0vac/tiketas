@@ -1,0 +1,832 @@
+{
+  "cinema": {
+    "name": "Tiketas",
+    "tagline": "Bioskop u srcu Beograda",
+    "city": "Beograd",
+    "address": "Knez Mihailova 12",
+    "district": "Stari Grad",
+    "phone": "+381 11 555 210"
+  },
+  "timezone": "Europe/Belgrade",
+  "today": "2026-11-23",
+  "currency": "RSD",
+  "ticketTypes": [
+    {
+      "id": "regular",
+      "label": "Regular",
+      "labelSr": "Regularna"
+    },
+    {
+      "id": "student",
+      "label": "Student",
+      "labelSr": "Studentska"
+    },
+    {
+      "id": "vip",
+      "label": "VIP",
+      "labelSr": "VIP"
+    }
+  ],
+  "screenings": [
+    {
+      "id": "969681-2026-11-23-1630-1",
+      "movieId": 969681,
+      "date": "2026-11-23",
+      "time": "16:30",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 61,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1198994-2026-11-23-1640-2",
+      "movieId": 1198994,
+      "date": "2026-11-23",
+      "time": "16:40",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 44,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1306368-2026-11-23-1700-3",
+      "movieId": 1306368,
+      "date": "2026-11-23",
+      "time": "17:00",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 39,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1368337-2026-11-23-1900-1",
+      "movieId": 1368337,
+      "date": "2026-11-23",
+      "time": "19:00",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 18,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "687163-2026-11-23-1910-2",
+      "movieId": 687163,
+      "date": "2026-11-23",
+      "time": "19:10",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 27,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "875828-2026-11-23-1920-3",
+      "movieId": 875828,
+      "date": "2026-11-23",
+      "time": "19:20",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 51,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "969681-2026-11-23-2115-1",
+      "movieId": 969681,
+      "date": "2026-11-23",
+      "time": "21:15",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 33,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1272837-2026-11-23-2120-2",
+      "movieId": 1272837,
+      "date": "2026-11-23",
+      "time": "21:20",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 48,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1171145-2026-11-23-2130-3",
+      "movieId": 1171145,
+      "date": "2026-11-23",
+      "time": "21:30",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 41,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1119449-2026-11-23-2140-4",
+      "movieId": 1119449,
+      "date": "2026-11-23",
+      "time": "21:40",
+      "hall": "Sala 4",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 64,
+      "availableSeats": 22,
+      "prices": {
+        "regular": 830,
+        "student": 600,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1368337-2026-11-24-1620-1",
+      "movieId": 1368337,
+      "date": "2026-11-24",
+      "time": "16:20",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 55,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1119449-2026-11-24-1630-2",
+      "movieId": 1119449,
+      "date": "2026-11-24",
+      "time": "16:30",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 62,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1171145-2026-11-24-1650-3",
+      "movieId": 1171145,
+      "date": "2026-11-24",
+      "time": "16:50",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 70,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "969681-2026-11-24-1900-1",
+      "movieId": 969681,
+      "date": "2026-11-24",
+      "time": "19:00",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 24,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1306368-2026-11-24-1905-2",
+      "movieId": 1306368,
+      "date": "2026-11-24",
+      "time": "19:05",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 36,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1198994-2026-11-24-1915-3",
+      "movieId": 1198994,
+      "date": "2026-11-24",
+      "time": "19:15",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 29,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "687163-2026-11-24-2110-1",
+      "movieId": 687163,
+      "date": "2026-11-24",
+      "time": "21:10",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 31,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "875828-2026-11-24-2120-2",
+      "movieId": 875828,
+      "date": "2026-11-24",
+      "time": "21:20",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 47,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1272837-2026-11-24-2125-3",
+      "movieId": 1272837,
+      "date": "2026-11-24",
+      "time": "21:25",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 40,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1368337-2026-11-24-2145-4",
+      "movieId": 1368337,
+      "date": "2026-11-24",
+      "time": "21:45",
+      "hall": "Sala 4",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 64,
+      "availableSeats": 9,
+      "prices": {
+        "regular": 970,
+        "student": 700,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "687163-2026-11-25-1630-1",
+      "movieId": 687163,
+      "date": "2026-11-25",
+      "time": "16:30",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 72,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "875828-2026-11-25-1640-2",
+      "movieId": 875828,
+      "date": "2026-11-25",
+      "time": "16:40",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 58,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1272837-2026-11-25-1700-3",
+      "movieId": 1272837,
+      "date": "2026-11-25",
+      "time": "17:00",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 34,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1368337-2026-11-25-1900-1",
+      "movieId": 1368337,
+      "date": "2026-11-25",
+      "time": "19:00",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 21,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "969681-2026-11-25-1910-2",
+      "movieId": 969681,
+      "date": "2026-11-25",
+      "time": "19:10",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 16,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1119449-2026-11-25-1920-3",
+      "movieId": 1119449,
+      "date": "2026-11-25",
+      "time": "19:20",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 43,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1198994-2026-11-25-2115-1",
+      "movieId": 1198994,
+      "date": "2026-11-25",
+      "time": "21:15",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 66,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1171145-2026-11-25-2120-2",
+      "movieId": 1171145,
+      "date": "2026-11-25",
+      "time": "21:20",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 52,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1306368-2026-11-25-2130-3",
+      "movieId": 1306368,
+      "date": "2026-11-25",
+      "time": "21:30",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 37,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "969681-2026-11-25-2140-4",
+      "movieId": 969681,
+      "date": "2026-11-25",
+      "time": "21:40",
+      "hall": "Sala 4",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 64,
+      "availableSeats": 11,
+      "prices": {
+        "regular": 970,
+        "student": 700,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1198994-2026-11-26-1615-1",
+      "movieId": 1198994,
+      "date": "2026-11-26",
+      "time": "16:15",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 81,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1306368-2026-11-26-1630-2",
+      "movieId": 1306368,
+      "date": "2026-11-26",
+      "time": "16:30",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 49,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1119449-2026-11-26-1645-3",
+      "movieId": 1119449,
+      "date": "2026-11-26",
+      "time": "16:45",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 57,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "969681-2026-11-26-1900-1",
+      "movieId": 969681,
+      "date": "2026-11-26",
+      "time": "19:00",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 28,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1368337-2026-11-26-1905-2",
+      "movieId": 1368337,
+      "date": "2026-11-26",
+      "time": "19:05",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 14,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "687163-2026-11-26-1920-3",
+      "movieId": 687163,
+      "date": "2026-11-26",
+      "time": "19:20",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 33,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1272837-2026-11-26-2110-1",
+      "movieId": 1272837,
+      "date": "2026-11-26",
+      "time": "21:10",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 45,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "875828-2026-11-26-2120-2",
+      "movieId": 875828,
+      "date": "2026-11-26",
+      "time": "21:20",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 38,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1171145-2026-11-26-2130-3",
+      "movieId": 1171145,
+      "date": "2026-11-26",
+      "time": "21:30",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 42,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1368337-2026-11-26-2145-4",
+      "movieId": 1368337,
+      "date": "2026-11-26",
+      "time": "21:45",
+      "hall": "Sala 4",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 64,
+      "availableSeats": 7,
+      "prices": {
+        "regular": 970,
+        "student": 700,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "875828-2026-11-27-1630-1",
+      "movieId": 875828,
+      "date": "2026-11-27",
+      "time": "16:30",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 77,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1171145-2026-11-27-1640-2",
+      "movieId": 1171145,
+      "date": "2026-11-27",
+      "time": "16:40",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 54,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "687163-2026-11-27-1700-3",
+      "movieId": 687163,
+      "date": "2026-11-27",
+      "time": "17:00",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 35,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1368337-2026-11-27-1900-1",
+      "movieId": 1368337,
+      "date": "2026-11-27",
+      "time": "19:00",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 12,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1272837-2026-11-27-1910-2",
+      "movieId": 1272837,
+      "date": "2026-11-27",
+      "time": "19:10",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 26,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1198994-2026-11-27-1920-3",
+      "movieId": 1198994,
+      "date": "2026-11-27",
+      "time": "19:20",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 48,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "969681-2026-11-27-2115-1",
+      "movieId": 969681,
+      "date": "2026-11-27",
+      "time": "21:15",
+      "hall": "Sala 1",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 148,
+      "availableSeats": 19,
+      "prices": {
+        "regular": 890,
+        "student": 650,
+        "vip": 1450
+      }
+    },
+    {
+      "id": "1306368-2026-11-27-2120-2",
+      "movieId": 1306368,
+      "date": "2026-11-27",
+      "time": "21:20",
+      "hall": "Sala 2",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 96,
+      "availableSeats": 40,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "1119449-2026-11-27-2130-3",
+      "movieId": 1119449,
+      "date": "2026-11-27",
+      "time": "21:30",
+      "hall": "Sala 3",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 88,
+      "availableSeats": 31,
+      "prices": {
+        "regular": 750,
+        "student": 550,
+        "vip": 1200
+      }
+    },
+    {
+      "id": "687163-2026-11-27-2140-4",
+      "movieId": 687163,
+      "date": "2026-11-27",
+      "time": "21:40",
+      "hall": "Sala 4",
+      "language": "EN",
+      "subtitles": "SR",
+      "capacity": 64,
+      "availableSeats": 15,
+      "prices": {
+        "regular": 970,
+        "student": 700,
+        "vip": 1450
+      }
+    }
+  ]
+}

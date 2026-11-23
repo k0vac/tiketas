@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "slug": "kokice",
+    "title": "Kokice",
+    "subtitle": "Buttered popcorn",
+    "description": "Warm, salted popcorn popped to order. The classic cinema companion.",
+    "price": 450,
+    "image": "/assets/img/food/kokice.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "kokakola330ml",
+    "title": "Koka Kola 330ml",
+    "subtitle": "Ice-cold bottle",
+    "description": "A chilled 330ml cola, ready for the main feature.",
+    "price": 320,
+    "image": "/assets/img/food/kokakola330ml.jpeg"
+  },
+  {
+    "id": 3,
+    "slug": "nacosi",
+    "title": "Načosi Doritos",
+    "subtitle": "Corn chips",
+    "description": "Crunchy nacho chips for sharing in the dark of the sala.",
+    "price": 390,
+    "image": "/assets/img/food/nacosi.png"
+  }
+]

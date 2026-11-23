@@ -1,86 +1,120 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
+import { movies } from '#/assets/movies.ts'
+import ConcessionCard from '#/components/ConcessionCard.tsx'
+import MovieCard from '#/components/MovieCard.tsx'
+import {
+  cinema,
+  concessions,
+  formatDateLabel,
+  formatRuntime,
+  getFeaturedMovie,
+  getMovieScreenings,
+  getUpcomingDates,
+} from '#/lib/cinema.ts'
 
-export const Route = createFileRoute('/')({ component: App })
+export const Route = createFileRoute('/')({ component: Home })
 
-function App() {
+function Home() {
+  const featured = getFeaturedMovie()
+  const upcoming = getUpcomingDates(featured.id, 5)
+  const todayScreenings = getMovieScreenings(featured.id).filter(
+    (screening) => screening.date === upcoming[0],
+  )
+
   return (
-    <main className="page-wrap px-4 pb-8 pt-14">
-      <section className="island-shell rise-in relative overflow-hidden rounded-[2rem] px-6 py-10 sm:px-10 sm:py-14">
-        <div className="pointer-events-none absolute -left-20 -top-24 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(79,184,178,0.32),transparent_66%)]" />
-        <div className="pointer-events-none absolute -bottom-20 -right-20 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(47,106,74,0.18),transparent_66%)]" />
-        <p className="island-kicker mb-3">TanStack Start Base Template</p>
-        <h1 className="display-title mb-5 max-w-3xl text-4xl leading-[1.02] font-bold tracking-tight text-[var(--sea-ink)] sm:text-6xl">
-          Start simple, ship quickly.
-        </h1>
-        <p className="mb-8 max-w-2xl text-base text-[var(--sea-ink-soft)] sm:text-lg">
-          This base starter intentionally keeps things light: two routes, clean
-          structure, and the essentials you need to build from scratch.
-        </p>
-        <div className="flex flex-wrap gap-3">
-          <a
-            href="/about"
-            className="rounded-full border border-[rgba(50,143,151,0.3)] bg-[rgba(79,184,178,0.14)] px-5 py-2.5 text-sm font-semibold text-[var(--lagoon-deep)] no-underline transition hover:-translate-y-0.5 hover:bg-[rgba(79,184,178,0.24)]"
-          >
-            About This Starter
-          </a>
-          <a
-            href="https://tanstack.com/router"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full border border-[rgba(23,58,64,0.2)] bg-white/50 px-5 py-2.5 text-sm font-semibold text-[var(--sea-ink)] no-underline transition hover:-translate-y-0.5 hover:border-[rgba(23,58,64,0.35)]"
-          >
-            Router Guide
-          </a>
+    <main className="pb-8">
+      <section className="relative min-h-[72vh] overflow-hidden">
+        {featured.backdrop ? (
+          <img
+            src={featured.backdrop}
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        ) : null}
+        <div className="hero-scrim absolute inset-0" />
+        <div className="sprocket-edge pointer-events-none absolute inset-y-0 left-0 hidden w-5 opacity-80 sm:block" />
+        <div className="page-wrap relative flex min-h-[72vh] items-end px-4 pb-12 pt-24">
+          <div className="rise-in max-w-2xl text-[#fbf6ec] [text-shadow:0_2px_24px_rgba(28,12,10,0.45)]">
+            <p className="mb-3 text-[0.69rem] font-bold tracking-[0.18em] text-[#f0c7c2] uppercase">
+              Now on screen · {cinema.name}
+            </p>
+            <h1 className="display-title mb-4 text-5xl leading-[0.95] font-bold tracking-tight text-[#fff8ef] sm:text-7xl">
+              {featured.title}
+            </h1>
+            {featured.tagline ? (
+              <p className="mb-5 text-lg text-[#f3e6d4] italic">{featured.tagline}</p>
+            ) : null}
+            <p className="mb-6 max-w-xl text-sm leading-6 text-[#e8d9c8] sm:text-base">
+              {featured.genres.join(' · ')}
+              {featured.runtime ? ` · ${formatRuntime(featured.runtime)}` : ''}
+              {featured.certification ? ` · ${featured.certification}` : ''}
+            </p>
+            <div className="mb-8 flex flex-wrap gap-2">
+              {upcoming.map((date) => (
+                <span
+                  key={date}
+                  className="rounded-full border border-[rgba(251,246,236,0.22)] bg-[rgba(28,12,10,0.35)] px-3 py-1.5 text-xs font-semibold tracking-wide"
+                >
+                  {formatDateLabel(date)}
+                  {todayScreenings.length > 0 && date === upcoming[0]
+                    ? ` · ${todayScreenings.map((item) => item.time).join(', ')}`
+                    : ''}
+                </span>
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                to="/movies/$slug"
+                params={{ slug: featured.slug }}
+                className="btn-maroon"
+              >
+                Film details
+              </Link>
+              <a href="#now-showing" className="btn-ghost">
+                Full repertoire
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {[
-          [
-            'Type-Safe Routing',
-            'Routes and links stay in sync across every page.',
-          ],
-          [
-            'Server Functions',
-            'Call server code from your UI without creating API boilerplate.',
-          ],
-          [
-            'Streaming by Default',
-            'Ship progressively rendered responses for faster experiences.',
-          ],
-          [
-            'Tailwind Native',
-            'Design quickly with utility-first styling and reusable tokens.',
-          ],
-        ].map(([title, desc], index) => (
-          <article
-            key={title}
-            className="island-shell feature-card rise-in rounded-2xl p-5"
-            style={{ animationDelay: `${index * 90 + 80}ms` }}
-          >
-            <h2 className="mb-2 text-base font-semibold text-[var(--sea-ink)]">
-              {title}
+      <section id="now-showing" className="page-wrap px-4 pt-12">
+        <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p className="island-kicker mb-2">Repertoar</p>
+            <h2 className="display-title m-0 text-3xl text-[var(--sea-ink)] sm:text-4xl">
+              Playing this week
             </h2>
-            <p className="m-0 text-sm text-[var(--sea-ink-soft)]">{desc}</p>
-          </article>
-        ))}
+          </div>
+          <p className="m-0 max-w-sm text-sm text-[var(--sea-ink-soft)]">
+            Five days of screenings from {formatDateLabel(upcoming[0] ?? '2026-11-23')}.
+            Pick a poster for times, prices, and the trailer.
+          </p>
+        </div>
+        <div className="poster-scroll">
+          {movies.map((movie) => (
+            <MovieCard key={movie.id} movie={movie} />
+          ))}
+        </div>
       </section>
 
-      <section className="island-shell mt-8 rounded-2xl p-6">
-        <p className="island-kicker mb-2">Quick Start</p>
-        <ul className="m-0 list-disc space-y-2 pl-5 text-sm text-[var(--sea-ink-soft)]">
-          <li>
-            Edit <code>src/routes/index.tsx</code> to customize the home page.
-          </li>
-          <li>
-            Update <code>src/components/Header.tsx</code> and{' '}
-            <code>src/components/Footer.tsx</code> for brand links.
-          </li>
-          <li>
-            Add routes in <code>src/routes</code> and tweak visual tokens in{' '}
-            <code>src/styles.css</code>.
-          </li>
-        </ul>
+      <section className="page-wrap px-4 pt-14">
+        <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p className="island-kicker mb-2">Šank</p>
+            <h2 className="display-title m-0 text-3xl text-[var(--sea-ink)] sm:text-4xl">
+              Something for the interval
+            </h2>
+          </div>
+          <Link to="/snacks" className="btn-cream">
+            All snacks
+          </Link>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-3">
+          {concessions.map((item) => (
+            <ConcessionCard key={item.id} item={item} />
+          ))}
+        </div>
       </section>
     </main>
   )
