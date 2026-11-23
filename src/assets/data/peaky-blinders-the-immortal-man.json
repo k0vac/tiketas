@@ -1,0 +1,141 @@
+{
+  "id": 875828,
+  "slug": "peaky-blinders-the-immortal-man",
+  "title": "Peaky Blinders: The Immortal Man",
+  "originalTitle": "Peaky Blinders: The Immortal Man",
+  "tagline": "It will all come to this.",
+  "overview": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+  "releaseDate": "2026-03-05",
+  "runtime": 112,
+  "status": "Released",
+  "originalLanguage": "en",
+  "spokenLanguages": [
+    "English"
+  ],
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "certification": "R",
+  "voteAverage": 7.175,
+  "voteCount": 1332,
+  "popularity": 11.334,
+  "budget": null,
+  "revenue": null,
+  "imdbId": "tt15574124",
+  "homepage": "https://www.netflix.com/title/81319485",
+  "poster": "/assets/img/peaky-blinders-the-immortal-man-poster.jpg",
+  "backdrop": "/assets/img/peaky-blinders-the-immortal-man-backdrop.jpg",
+  "directors": [
+    "Tom Harper"
+  ],
+  "writers": [
+    "Steven Knight"
+  ],
+  "cast": [
+    {
+      "id": 2037,
+      "name": "Cillian Murphy",
+      "character": "Tommy Shelby",
+      "order": 0
+    },
+    {
+      "id": 1290466,
+      "name": "Barry Keoghan",
+      "character": "Duke Shelby",
+      "order": 1
+    },
+    {
+      "id": 933238,
+      "name": "Rebecca Ferguson",
+      "character": "Kaulo / Zelda",
+      "order": 2
+    },
+    {
+      "id": 3129,
+      "name": "Tim Roth",
+      "character": "John Beckett",
+      "order": 3
+    },
+    {
+      "id": 1115,
+      "name": "Stephen Graham",
+      "character": "Hayden Stagg",
+      "order": 4
+    },
+    {
+      "id": 1088620,
+      "name": "Sophie Rundle",
+      "character": "Ada Shelby",
+      "order": 5
+    },
+    {
+      "id": 63362,
+      "name": "Ned Dennehy",
+      "character": "Charlie Strong",
+      "order": 6
+    },
+    {
+      "id": 211610,
+      "name": "Packy Lee",
+      "character": "Johnny Dogs",
+      "order": 7
+    },
+    {
+      "id": 208467,
+      "name": "Ian Peck",
+      "character": "Curly",
+      "order": 8
+    },
+    {
+      "id": 2588506,
+      "name": "Jay Lycurgo",
+      "character": "Elijah",
+      "order": 9
+    },
+    {
+      "id": 5734553,
+      "name": "Kasper Hilton-Hille",
+      "character": "Karl Thorne",
+      "order": 10
+    },
+    {
+      "id": 1512455,
+      "name": "Ruby Ashbourne Serkis",
+      "character": "Agnes Shelby",
+      "order": 11
+    }
+  ],
+  "trailer": {
+    "name": "Official Trailer",
+    "key": "lcvUGs3xaDM",
+    "site": "YouTube",
+    "type": "Trailer"
+  },
+  "keywords": [
+    "england",
+    "gangster",
+    "betrayal",
+    "organized crime",
+    "period drama",
+    "gang warfare",
+    "1940s",
+    "birmingham",
+    "based on tv series",
+    "fatalism",
+    "dark atmosphere",
+    "haunted by his demons",
+    "german covert operation",
+    "british underworld",
+    "wartime trauma",
+    "smuggling network"
+  ],
+  "productionCompanies": [
+    "BBC Film",
+    "Garrison Drama",
+    "Nebulastar"
+  ],
+  "productionCountries": [
+    "United Kingdom"
+  ]
+}

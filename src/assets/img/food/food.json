@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "slug": "kokice",
+    "title": "Kokice",
+    "description": "Popcorn is a snack that is made from corn kernels that are popped in a hot oil. It is a popular snack that is often served with a movie.",
+    "price": 10.00,
+    "image": "/assets/img/food/popcorn.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "kokakola330ml",
+    "title": "Koka Kola 330ml",
+    "description": "Koka Kola is a soft drink that is made from cola. It is a popular drink that is often served with a movie.",
+    "price": 10.00,
+    "image": "/assets/img/food/kokakola330ml.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "nacosi",
+    "title": "Nacosi Doritos",
+    "description": "Nacos Cips are a snack that is made from corn chips. It is a popular snack that is often served with a movie.",
+    "price": 10.00,
+    "image": "/assets/img/food/nacosi.png"
+  }
+]

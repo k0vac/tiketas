@@ -1,0 +1,1282 @@
+[
+  {
+    "id": 1368337,
+    "slug": "the-odyssey",
+    "title": "The Odyssey",
+    "originalTitle": "The Odyssey",
+    "tagline": "Defy the gods.",
+    "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+    "releaseDate": "2026-07-15",
+    "runtime": 173,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English"
+    ],
+    "genres": [
+      "Adventure",
+      "Action",
+      "Fantasy"
+    ],
+    "certification": "R",
+    "voteAverage": 8.023,
+    "voteCount": 5389,
+    "popularity": 499.7136,
+    "budget": 250000000,
+    "revenue": 1804589435,
+    "imdbId": "tt33764258",
+    "homepage": "https://www.universalpictures.com/movies/the-odyssey",
+    "poster": "/assets/img/the-odyssey-poster.jpg",
+    "backdrop": "/assets/img/the-odyssey-backdrop.jpg",
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      {
+        "id": 1892,
+        "name": "Matt Damon",
+        "character": "Odysseus",
+        "order": 0
+      },
+      {
+        "id": 1136406,
+        "name": "Tom Holland",
+        "character": "Telemachus",
+        "order": 1
+      },
+      {
+        "id": 1813,
+        "name": "Anne Hathaway",
+        "character": "Penelope",
+        "order": 2
+      },
+      {
+        "id": 11288,
+        "name": "Robert Pattinson",
+        "character": "Antinous",
+        "order": 3
+      },
+      {
+        "id": 1227717,
+        "name": "Himesh Patel",
+        "character": "Eurylochus",
+        "order": 4
+      },
+      {
+        "id": 6885,
+        "name": "Charlize Theron",
+        "character": "Calypso",
+        "order": 5
+      },
+      {
+        "id": 5723,
+        "name": "John Leguizamo",
+        "character": "Eumaeus",
+        "order": 6
+      },
+      {
+        "id": 1978406,
+        "name": "Travis Scott",
+        "character": "Bard",
+        "order": 7
+      },
+      {
+        "id": 1154054,
+        "name": "Corey Hawkins",
+        "character": "Polybus",
+        "order": 8
+      },
+      {
+        "id": 84706,
+        "name": "Jarreth J. Merz",
+        "character": "Leodes",
+        "order": 9
+      },
+      {
+        "id": 1008750,
+        "name": "Niko Nicotera",
+        "character": "Peisander",
+        "order": 10
+      },
+      {
+        "id": 27578,
+        "name": "Elliot Page",
+        "character": "Sinon",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Official Countdown Trailer",
+      "key": "AyIZ9tiiN8I",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "ship",
+      "trojan war",
+      "greek mythology",
+      "historical fiction",
+      "ancient world",
+      "period drama",
+      "based on song, poem or rhyme",
+      "greek history",
+      "voyage",
+      "peplum",
+      "ancient",
+      "trojan horse",
+      "mediterranean sea",
+      "bronze age",
+      "mythical",
+      "odyssey"
+    ],
+    "productionCompanies": [
+      "Universal Pictures",
+      "Syncopy"
+    ],
+    "productionCountries": [
+      "United Kingdom",
+      "United States of America"
+    ]
+  },
+  {
+    "id": 687163,
+    "slug": "project-hail-mary",
+    "title": "Project Hail Mary",
+    "originalTitle": "Project Hail Mary",
+    "tagline": "Believe in the Hail Mary.",
+    "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
+    "releaseDate": "2026-03-15",
+    "runtime": 157,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English"
+    ],
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "certification": "PG-13",
+    "voteAverage": 8.621,
+    "voteCount": 8998,
+    "popularity": 81.1664,
+    "budget": 200000000,
+    "revenue": 684639091,
+    "imdbId": "tt12042730",
+    "homepage": "https://www.amazon.com/salp/projecthailmary?hhf",
+    "poster": "/assets/img/project-hail-mary-poster.jpg",
+    "backdrop": "/assets/img/project-hail-mary-backdrop.jpg",
+    "directors": [
+      "Phil Lord",
+      "Christopher Miller"
+    ],
+    "writers": [
+      "Andy Weir",
+      "Drew Goddard"
+    ],
+    "cast": [
+      {
+        "id": 30614,
+        "name": "Ryan Gosling",
+        "character": "Ryland Grace",
+        "order": 0
+      },
+      {
+        "id": 7152,
+        "name": "Sandra Hüller",
+        "character": "Eva Stratt",
+        "order": 1
+      },
+      {
+        "id": 2096164,
+        "name": "James Ortiz",
+        "character": "Rocky (voice)",
+        "order": 2
+      },
+      {
+        "id": 2320708,
+        "name": "Lionel Boyce",
+        "character": "Carl",
+        "order": 3
+      },
+      {
+        "id": 1454946,
+        "name": "Milana Vayntrub",
+        "character": "Olesya Ilyukhina",
+        "order": 4
+      },
+      {
+        "id": 2131,
+        "name": "Ken Leung",
+        "character": "Yao",
+        "order": 5
+      },
+      {
+        "id": 3554544,
+        "name": "Priya Kansara",
+        "character": "Mary (voice)",
+        "order": 6
+      },
+      {
+        "id": 1749206,
+        "name": "Mia Soteriou",
+        "character": "Dr. Browne",
+        "order": 7
+      },
+      {
+        "id": 3074054,
+        "name": "Annelle Olaleye",
+        "character": "Olivia",
+        "order": 8
+      },
+      {
+        "id": 6080198,
+        "name": "Maya Eva Hosein",
+        "character": "Rekha",
+        "order": 9
+      },
+      {
+        "id": 3144892,
+        "name": "Bastian Antonio Fuentes",
+        "character": "Parker",
+        "order": 10
+      },
+      {
+        "id": 3796265,
+        "name": "Alice Brittain",
+        "character": "Hardware Store Cashier",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Returning To Theaters",
+      "key": "Q2UjkMU_ZWQ",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "friendship",
+      "coma",
+      "based on novel or book",
+      "bravery",
+      "sun",
+      "language barrier",
+      "space travel",
+      "space mission",
+      "alien",
+      "space",
+      "memory loss",
+      "suicide mission",
+      "astronaut",
+      "scientist",
+      "science teacher",
+      "save the planet"
+    ],
+    "productionCompanies": [
+      "Lord Miller",
+      "Amazon MGM Studios",
+      "Pascal Pictures",
+      "Open Invite Entertainment",
+      "Waypoint Entertainment"
+    ],
+    "productionCountries": [
+      "United States of America"
+    ]
+  },
+  {
+    "id": 969681,
+    "slug": "spider-man-brand-new-day",
+    "title": "Spider-Man: Brand New Day",
+    "originalTitle": "Spider-Man: Brand New Day",
+    "tagline": "A brand new day starts now.",
+    "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+    "releaseDate": "2026-07-29",
+    "runtime": 145,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English"
+    ],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "certification": "PG-13",
+    "voteAverage": 8.5,
+    "voteCount": 7062,
+    "popularity": 310.0185,
+    "budget": 225000000,
+    "revenue": 2523147515,
+    "imdbId": "tt22084616",
+    "homepage": "https://spidermanbrandnewday.movie",
+    "poster": "/assets/img/spider-man-brand-new-day-poster.jpg",
+    "backdrop": "/assets/img/spider-man-brand-new-day-backdrop.jpg",
+    "directors": [
+      "Destin Daniel Cretton"
+    ],
+    "writers": [
+      "Erik Sommers",
+      "Chris McKenna"
+    ],
+    "cast": [
+      {
+        "id": 1136406,
+        "name": "Tom Holland",
+        "character": "Peter Parker / Spider-Man",
+        "order": 0
+      },
+      {
+        "id": 1590797,
+        "name": "Sadie Sink",
+        "character": "Jean Grey",
+        "order": 1
+      },
+      {
+        "id": 2028037,
+        "name": "Tramell Tillman",
+        "character": "William 'Bill' Metzger",
+        "order": 2
+      },
+      {
+        "id": 505710,
+        "name": "Zendaya",
+        "character": "MJ",
+        "order": 3
+      },
+      {
+        "id": 1649152,
+        "name": "Jacob Batalon",
+        "character": "Ned Leeds",
+        "order": 4
+      },
+      {
+        "id": 19498,
+        "name": "Jon Bernthal",
+        "character": "Frank Castle / Punisher",
+        "order": 5
+      },
+      {
+        "id": 103,
+        "name": "Mark Ruffalo",
+        "character": "Bruce Banner / Hulk",
+        "order": 6
+      },
+      {
+        "id": 1373737,
+        "name": "Florence Pugh",
+        "character": "Yelena Belova / Black Widow",
+        "order": 7
+      },
+      {
+        "id": 59693,
+        "name": "Liza Colón-Zayas",
+        "character": "Detective Jean DeWolff",
+        "order": 8
+      },
+      {
+        "id": 3141,
+        "name": "Marisa Tomei",
+        "character": "May Parker",
+        "order": 9
+      },
+      {
+        "id": 3489,
+        "name": "Naomi Watts",
+        "character": "E.V. (voice)",
+        "order": 10
+      },
+      {
+        "id": 829372,
+        "name": "Michael Mando",
+        "character": "Mac Gargan / Scorpion",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Final Trailer (Peter’s Journey)",
+      "key": "P3uI5sLosKU",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "mind control",
+      "new york city",
+      "hero",
+      "mutation",
+      "secret identity",
+      "superhero",
+      "spider",
+      "villain",
+      "based on comic",
+      "sequel",
+      "transhumanism",
+      "super power",
+      "masked vigilante",
+      "spider web",
+      "aftercreditsstinger",
+      "marvel cinematic universe (mcu)"
+    ],
+    "productionCompanies": [
+      "Marvel Studios",
+      "Columbia Pictures",
+      "Pascal Pictures",
+      "TSG Entertainment"
+    ],
+    "productionCountries": [
+      "United States of America"
+    ]
+  },
+  {
+    "id": 1198994,
+    "slug": "send-help",
+    "title": "Send Help",
+    "originalTitle": "Send Help",
+    "tagline": "Meet Linda Liddle... She's from strategy and planning. She's the boss now.",
+    "overview": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+    "releaseDate": "2026-01-22",
+    "runtime": 113,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English",
+      "Russian"
+    ],
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Comedy"
+    ],
+    "certification": "R",
+    "voteAverage": 6.984,
+    "voteCount": 2529,
+    "popularity": 12.5235,
+    "budget": 40000000,
+    "revenue": 94041481,
+    "imdbId": "tt8036976",
+    "homepage": "https://www.20thcenturystudios.com/movies/send-help",
+    "poster": "/assets/img/send-help-poster.jpg",
+    "backdrop": "/assets/img/send-help-backdrop.jpg",
+    "directors": [
+      "Sam Raimi"
+    ],
+    "writers": [
+      "Damian Shannon",
+      "Mark Swift"
+    ],
+    "cast": [
+      {
+        "id": 53714,
+        "name": "Rachel McAdams",
+        "character": "Linda Liddle",
+        "order": 0
+      },
+      {
+        "id": 527393,
+        "name": "Dylan O'Brien",
+        "character": "Bradley Preston",
+        "order": 1
+      },
+      {
+        "id": 4477127,
+        "name": "Edyll Ismail",
+        "character": "Zuri",
+        "order": 2
+      },
+      {
+        "id": 109438,
+        "name": "Xavier Samuel",
+        "character": "Donovan",
+        "order": 3
+      },
+      {
+        "id": 352,
+        "name": "Dennis Haysbert",
+        "character": "Franklin",
+        "order": 4
+      },
+      {
+        "id": 145248,
+        "name": "Chris Pang",
+        "character": "Chase",
+        "order": 5
+      },
+      {
+        "id": 1743358,
+        "name": "Thaneth Warakulnukroh",
+        "character": "Boat Captain",
+        "order": 6
+      },
+      {
+        "id": 1446431,
+        "name": "Emma Raimi",
+        "character": "River",
+        "order": 7
+      },
+      {
+        "id": 1485593,
+        "name": "Kristy Best",
+        "character": "Polly Perera",
+        "order": 8
+      },
+      {
+        "id": 2300917,
+        "name": "Francesca Waters",
+        "character": "Barbara",
+        "order": 9
+      },
+      {
+        "id": 5981610,
+        "name": "Olivia Sawyer",
+        "character": "Applicant",
+        "order": 10
+      },
+      {
+        "id": 5406321,
+        "name": "Brad Flett",
+        "character": "Trainer",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Get Tickets Now",
+      "key": "cOmnmFz_Uzs",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "bullying",
+      "role reversal",
+      "survival",
+      "struggle for survival",
+      "survival horror",
+      "deserted island",
+      "power struggle",
+      "colleagues",
+      "bullying in the workplace",
+      "plane crash",
+      "gender inequality",
+      "comedy thriller",
+      "comedy horror"
+    ],
+    "productionCompanies": [
+      "Raimi Productions",
+      "20th Century Studios",
+      "TSG Entertainment"
+    ],
+    "productionCountries": [
+      "United States of America"
+    ]
+  },
+  {
+    "id": 1119449,
+    "slug": "good-luck-have-fun-dont-die",
+    "title": "Good Luck, Have Fun, Don't Die",
+    "originalTitle": "Good Luck, Have Fun, Don't Die",
+    "tagline": "Time is running out. Are you ready to join the revolution?",
+    "overview": "A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to join him on a one-night quest to save the world from the terminal threat of a rogue artificial intelligence.",
+    "releaseDate": "2026-02-13",
+    "runtime": 134,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English"
+    ],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Comedy"
+    ],
+    "certification": "R",
+    "voteAverage": 7.108,
+    "voteCount": 1232,
+    "popularity": 15.4184,
+    "budget": 20000000,
+    "revenue": 9755038,
+    "imdbId": "tt1341338",
+    "homepage": "https://www.goodluckhavefundontdiemovie.com",
+    "poster": "/assets/img/good-luck-have-fun-dont-die-poster.jpg",
+    "backdrop": "/assets/img/good-luck-have-fun-dont-die-backdrop.jpg",
+    "directors": [
+      "Gore Verbinski"
+    ],
+    "writers": [
+      "Matthew Robinson"
+    ],
+    "cast": [
+      {
+        "id": 6807,
+        "name": "Sam Rockwell",
+        "character": "The Man from the Future",
+        "order": 0
+      },
+      {
+        "id": 36594,
+        "name": "Juno Temple",
+        "character": "Susan",
+        "order": 1
+      },
+      {
+        "id": 1286328,
+        "name": "Haley Lu Richardson",
+        "character": "Ingrid",
+        "order": 2
+      },
+      {
+        "id": 454,
+        "name": "Michael Peña",
+        "character": "Mark",
+        "order": 3
+      },
+      {
+        "id": 1545693,
+        "name": "Zazie Beetz",
+        "character": "Janet",
+        "order": 4
+      },
+      {
+        "id": 1502438,
+        "name": "Asim Chaudhry",
+        "character": "Scott",
+        "order": 5
+      },
+      {
+        "id": 1696753,
+        "name": "Tom Taylor",
+        "character": "Tim",
+        "order": 6
+      },
+      {
+        "id": 1561310,
+        "name": "Georgia Goodman",
+        "character": "Marie",
+        "order": 7
+      },
+      {
+        "id": 2428291,
+        "name": "Daniel Barnett",
+        "character": "Bob",
+        "order": 8
+      },
+      {
+        "id": 3839205,
+        "name": "Artie Wilkinson-Hunt",
+        "character": "The AI Boy",
+        "order": 9
+      },
+      {
+        "id": 4201877,
+        "name": "Riccardo Drayton",
+        "character": "Darren",
+        "order": 10
+      },
+      {
+        "id": 2387567,
+        "name": "Dominique Maher",
+        "character": "Samantha",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Official Trailer",
+      "key": "Nm4WbapDzDQ",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "artificial intelligence (a.i.)",
+      "time travel",
+      "diner",
+      "transhumanism",
+      "los angeles, california",
+      "blunt",
+      "dark future",
+      "mother son relationship",
+      "cautionary",
+      "adventure comedy",
+      "assertive",
+      "exuberant",
+      "frustrated",
+      "team mission"
+    ],
+    "productionCompanies": [
+      "Constantin Film",
+      "Blind Wink",
+      "3 Arts Entertainment",
+      "North.Five.Six."
+    ],
+    "productionCountries": [
+      "United States of America",
+      "Germany"
+    ]
+  },
+  {
+    "id": 1272837,
+    "slug": "28-years-later-the-bone-temple",
+    "title": "28 Years Later: The Bone Temple",
+    "originalTitle": "28 Years Later: The Bone Temple",
+    "tagline": "Fear is the new faith.",
+    "overview": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
+    "releaseDate": "2026-01-14",
+    "runtime": 109,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English"
+    ],
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "certification": "R",
+    "voteAverage": 7.087,
+    "voteCount": 1961,
+    "popularity": 13.8249,
+    "budget": 63000000,
+    "revenue": 58527279,
+    "imdbId": "tt32141377",
+    "homepage": "https://28yearslater.movie",
+    "poster": "/assets/img/28-years-later-the-bone-temple-poster.jpg",
+    "backdrop": "/assets/img/28-years-later-the-bone-temple-backdrop.jpg",
+    "directors": [
+      "Nia DaCosta"
+    ],
+    "writers": [
+      "Alex Garland"
+    ],
+    "cast": [
+      {
+        "id": 5469,
+        "name": "Ralph Fiennes",
+        "character": "Dr. Kelson",
+        "order": 0
+      },
+      {
+        "id": 5107934,
+        "name": "Alfie Williams",
+        "character": "Spike",
+        "order": 1
+      },
+      {
+        "id": 85065,
+        "name": "Jack O'Connell",
+        "character": "Sir Jimmy Crystal",
+        "order": 2
+      },
+      {
+        "id": 1672504,
+        "name": "Erin Kellyman",
+        "character": "Jimmy Ink",
+        "order": 3
+      },
+      {
+        "id": 1344320,
+        "name": "Chi Lewis-Parry",
+        "character": "Samson",
+        "order": 4
+      },
+      {
+        "id": 5518922,
+        "name": "Connor Newall",
+        "character": "Jimmy Shite",
+        "order": 5
+      },
+      {
+        "id": 5514148,
+        "name": "Maura Bird",
+        "character": "Jimmy Jones",
+        "order": 6
+      },
+      {
+        "id": 3916722,
+        "name": "Ghazi Al Ruffai",
+        "character": "Jimmy Snake",
+        "order": 7
+      },
+      {
+        "id": 4502181,
+        "name": "Robert Rhodes",
+        "character": "Jimmy Jimmy",
+        "order": 8
+      },
+      {
+        "id": 2290611,
+        "name": "Emma Laird",
+        "character": "Jimmima",
+        "order": 9
+      },
+      {
+        "id": 5512256,
+        "name": "Sam Locke",
+        "character": "Jimmy Fox",
+        "order": 10
+      },
+      {
+        "id": 5191218,
+        "name": "Gareth Locke",
+        "character": "Hunter",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "International Trailer",
+      "key": "rl_DJZCyEH4",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "england",
+      "satanism",
+      "cult",
+      "sequel",
+      "zombie",
+      "crucifix",
+      "survival horror",
+      "satanic cult",
+      "zombie apocalypse",
+      "woman director",
+      "northumberland",
+      "post-apocalyptic"
+    ],
+    "productionCompanies": [
+      "Columbia Pictures",
+      "TSG Entertainment",
+      "DNA Films"
+    ],
+    "productionCountries": [
+      "United Kingdom",
+      "United States of America"
+    ]
+  },
+  {
+    "id": 1306368,
+    "slug": "the-rip",
+    "title": "The Rip",
+    "originalTitle": "The Rip",
+    "tagline": "Count the money. Count it again. Count on no one.",
+    "overview": "Trust frays when a team of Miami cops discovers millions in cash inside a run-down stash house, calling everyone — and everything — into question.",
+    "releaseDate": "2026-01-13",
+    "runtime": 113,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English",
+      "Spanish"
+    ],
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "certification": "R",
+    "voteAverage": 7.066,
+    "voteCount": 2091,
+    "popularity": 14.1294,
+    "budget": 100000000,
+    "revenue": null,
+    "imdbId": "tt32642706",
+    "homepage": "https://www.netflix.com/title/81915745",
+    "poster": "/assets/img/the-rip-poster.jpg",
+    "backdrop": "/assets/img/the-rip-backdrop.jpg",
+    "directors": [
+      "Joe Carnahan"
+    ],
+    "writers": [
+      "Joe Carnahan",
+      "Michael McGrale"
+    ],
+    "cast": [
+      {
+        "id": 1892,
+        "name": "Matt Damon",
+        "character": "Lieutenant Dane Dumars",
+        "order": 0
+      },
+      {
+        "id": 880,
+        "name": "Ben Affleck",
+        "character": "Detective Sergeant J.D. Byrne",
+        "order": 1
+      },
+      {
+        "id": 964679,
+        "name": "Teyana Taylor",
+        "character": "Detective Numa Baptistie",
+        "order": 2
+      },
+      {
+        "id": 215055,
+        "name": "Steven Yeun",
+        "character": "Detective Mike Ro",
+        "order": 3
+      },
+      {
+        "id": 5887,
+        "name": "Catalina Sandino Moreno",
+        "character": "Detective Lolo Salazar",
+        "order": 4
+      },
+      {
+        "id": 2542319,
+        "name": "Sasha Calle",
+        "character": "Desiree 'Desi' Lopez Molina",
+        "order": 5
+      },
+      {
+        "id": 3497,
+        "name": "Kyle Chandler",
+        "character": "DEA Agent Mateo 'Matty' Nix",
+        "order": 6
+      },
+      {
+        "id": 78110,
+        "name": "Scott Adkins",
+        "character": "FBI Agent Del Byrne",
+        "order": 7
+      },
+      {
+        "id": 2271371,
+        "name": "Daisuke Tsuji",
+        "character": "FBI Agent Logan Casiano",
+        "order": 8
+      },
+      {
+        "id": 21316,
+        "name": "Nestor Carbonell",
+        "character": "Major Thom Vallejo",
+        "order": 9
+      },
+      {
+        "id": 52850,
+        "name": "Lina Esco",
+        "character": "Captain Jackie Velez",
+        "order": 10
+      },
+      {
+        "id": 1472892,
+        "name": "Alex Hernandez",
+        "character": "Hialeah Patrolman Warwick",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Official Trailer",
+      "key": "yeR5bcbRPak",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "drug crime",
+      "miami, florida",
+      "police",
+      "investigation",
+      "cover-up",
+      "betrayal",
+      "shootout",
+      "dirty cop",
+      "trust",
+      "double cross",
+      "attic",
+      "sting operation",
+      "cartel",
+      "hidden money",
+      "fbi agent",
+      "drug money"
+    ],
+    "productionCompanies": [
+      "Artists Equity"
+    ],
+    "productionCountries": [
+      "United States of America"
+    ]
+  },
+  {
+    "id": 875828,
+    "slug": "peaky-blinders-the-immortal-man",
+    "title": "Peaky Blinders: The Immortal Man",
+    "originalTitle": "Peaky Blinders: The Immortal Man",
+    "tagline": "It will all come to this.",
+    "overview": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+    "releaseDate": "2026-03-05",
+    "runtime": 112,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English"
+    ],
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "certification": "R",
+    "voteAverage": 7.175,
+    "voteCount": 1332,
+    "popularity": 11.334,
+    "budget": null,
+    "revenue": null,
+    "imdbId": "tt15574124",
+    "homepage": "https://www.netflix.com/title/81319485",
+    "poster": "/assets/img/peaky-blinders-the-immortal-man-poster.jpg",
+    "backdrop": "/assets/img/peaky-blinders-the-immortal-man-backdrop.jpg",
+    "directors": [
+      "Tom Harper"
+    ],
+    "writers": [
+      "Steven Knight"
+    ],
+    "cast": [
+      {
+        "id": 2037,
+        "name": "Cillian Murphy",
+        "character": "Tommy Shelby",
+        "order": 0
+      },
+      {
+        "id": 1290466,
+        "name": "Barry Keoghan",
+        "character": "Duke Shelby",
+        "order": 1
+      },
+      {
+        "id": 933238,
+        "name": "Rebecca Ferguson",
+        "character": "Kaulo / Zelda",
+        "order": 2
+      },
+      {
+        "id": 3129,
+        "name": "Tim Roth",
+        "character": "John Beckett",
+        "order": 3
+      },
+      {
+        "id": 1115,
+        "name": "Stephen Graham",
+        "character": "Hayden Stagg",
+        "order": 4
+      },
+      {
+        "id": 1088620,
+        "name": "Sophie Rundle",
+        "character": "Ada Shelby",
+        "order": 5
+      },
+      {
+        "id": 63362,
+        "name": "Ned Dennehy",
+        "character": "Charlie Strong",
+        "order": 6
+      },
+      {
+        "id": 211610,
+        "name": "Packy Lee",
+        "character": "Johnny Dogs",
+        "order": 7
+      },
+      {
+        "id": 208467,
+        "name": "Ian Peck",
+        "character": "Curly",
+        "order": 8
+      },
+      {
+        "id": 2588506,
+        "name": "Jay Lycurgo",
+        "character": "Elijah",
+        "order": 9
+      },
+      {
+        "id": 5734553,
+        "name": "Kasper Hilton-Hille",
+        "character": "Karl Thorne",
+        "order": 10
+      },
+      {
+        "id": 1512455,
+        "name": "Ruby Ashbourne Serkis",
+        "character": "Agnes Shelby",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Official Trailer",
+      "key": "lcvUGs3xaDM",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "england",
+      "gangster",
+      "betrayal",
+      "organized crime",
+      "period drama",
+      "gang warfare",
+      "1940s",
+      "birmingham",
+      "based on tv series",
+      "fatalism",
+      "dark atmosphere",
+      "haunted by his demons",
+      "german covert operation",
+      "british underworld",
+      "wartime trauma",
+      "smuggling network"
+    ],
+    "productionCompanies": [
+      "BBC Film",
+      "Garrison Drama",
+      "Nebulastar"
+    ],
+    "productionCountries": [
+      "United Kingdom"
+    ]
+  },
+  {
+    "id": 1171145,
+    "slug": "crime-101",
+    "title": "Crime 101",
+    "originalTitle": "Crime 101",
+    "tagline": "Always have an exit.",
+    "overview": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+    "releaseDate": "2026-02-11",
+    "runtime": 141,
+    "status": "Released",
+    "originalLanguage": "en",
+    "spokenLanguages": [
+      "English"
+    ],
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "certification": "R",
+    "voteAverage": 7.022,
+    "voteCount": 1504,
+    "popularity": 20.3094,
+    "budget": 90000000,
+    "revenue": 72900246,
+    "imdbId": "tt32430579",
+    "homepage": "https://www.amazon.com/salp/crime101?hhf",
+    "poster": "/assets/img/crime-101-poster.jpg",
+    "backdrop": "/assets/img/crime-101-backdrop.jpg",
+    "directors": [
+      "Bart Layton"
+    ],
+    "writers": [
+      "Don Winslow",
+      "Bart Layton"
+    ],
+    "cast": [
+      {
+        "id": 74568,
+        "name": "Chris Hemsworth",
+        "character": "Davis",
+        "order": 0
+      },
+      {
+        "id": 103,
+        "name": "Mark Ruffalo",
+        "character": "Lou",
+        "order": 1
+      },
+      {
+        "id": 4587,
+        "name": "Halle Berry",
+        "character": "Sharon",
+        "order": 2
+      },
+      {
+        "id": 1290466,
+        "name": "Barry Keoghan",
+        "character": "Ormon",
+        "order": 3
+      },
+      {
+        "id": 1525043,
+        "name": "Monica Barbaro",
+        "character": "Maya",
+        "order": 4
+      },
+      {
+        "id": 1733,
+        "name": "Nick Nolte",
+        "character": "Money",
+        "order": 5
+      },
+      {
+        "id": 1154054,
+        "name": "Corey Hawkins",
+        "character": "Tillman",
+        "order": 6
+      },
+      {
+        "id": 10431,
+        "name": "Jennifer Jason Leigh",
+        "character": "Angie",
+        "order": 7
+      },
+      {
+        "id": 1561485,
+        "name": "Peter Banifaz",
+        "character": "Ben Haddad",
+        "order": 8
+      },
+      {
+        "id": 1362974,
+        "name": "Babak Tafti",
+        "character": "Ali",
+        "order": 9
+      },
+      {
+        "id": 559566,
+        "name": "Payman Maadi",
+        "character": "Sammy Kassem",
+        "order": 10
+      },
+      {
+        "id": 1280746,
+        "name": "Hossein Mardani",
+        "character": "Masoud",
+        "order": 11
+      }
+    ],
+    "trailer": {
+      "name": "Official Trailer 2",
+      "key": "KeEHsuZ4Ja4",
+      "site": "YouTube",
+      "type": "Trailer"
+    },
+    "keywords": [
+      "robbery",
+      "based on novel or book",
+      "jewelry",
+      "heist",
+      "police chase",
+      "los angeles, california",
+      "police detective",
+      "diamond heist",
+      "insurance",
+      "lapd",
+      "motorcycle chase",
+      "jewel robbery",
+      "ford mustang",
+      "amused",
+      "antwerp diamonds"
+    ],
+    "productionCompanies": [
+      "Working Title",
+      "The Story Factory",
+      "RAW",
+      "Amazon MGM Studios",
+      "Wild State"
+    ],
+    "productionCountries": [
+      "United Kingdom",
+      "United States of America"
+    ]
+  }
+]

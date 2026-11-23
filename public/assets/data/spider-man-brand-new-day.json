@@ -1,0 +1,144 @@
+{
+  "id": 969681,
+  "slug": "spider-man-brand-new-day",
+  "title": "Spider-Man: Brand New Day",
+  "originalTitle": "Spider-Man: Brand New Day",
+  "tagline": "A brand new day starts now.",
+  "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+  "releaseDate": "2026-07-29",
+  "runtime": 145,
+  "status": "Released",
+  "originalLanguage": "en",
+  "spokenLanguages": [
+    "English"
+  ],
+  "genres": [
+    "Science Fiction",
+    "Action",
+    "Adventure"
+  ],
+  "certification": "PG-13",
+  "voteAverage": 8.5,
+  "voteCount": 7062,
+  "popularity": 310.0185,
+  "budget": 225000000,
+  "revenue": 2523147515,
+  "imdbId": "tt22084616",
+  "homepage": "https://spidermanbrandnewday.movie",
+  "poster": "/assets/img/spider-man-brand-new-day-poster.jpg",
+  "backdrop": "/assets/img/spider-man-brand-new-day-backdrop.jpg",
+  "directors": [
+    "Destin Daniel Cretton"
+  ],
+  "writers": [
+    "Erik Sommers",
+    "Chris McKenna"
+  ],
+  "cast": [
+    {
+      "id": 1136406,
+      "name": "Tom Holland",
+      "character": "Peter Parker / Spider-Man",
+      "order": 0
+    },
+    {
+      "id": 1590797,
+      "name": "Sadie Sink",
+      "character": "Jean Grey",
+      "order": 1
+    },
+    {
+      "id": 2028037,
+      "name": "Tramell Tillman",
+      "character": "William 'Bill' Metzger",
+      "order": 2
+    },
+    {
+      "id": 505710,
+      "name": "Zendaya",
+      "character": "MJ",
+      "order": 3
+    },
+    {
+      "id": 1649152,
+      "name": "Jacob Batalon",
+      "character": "Ned Leeds",
+      "order": 4
+    },
+    {
+      "id": 19498,
+      "name": "Jon Bernthal",
+      "character": "Frank Castle / Punisher",
+      "order": 5
+    },
+    {
+      "id": 103,
+      "name": "Mark Ruffalo",
+      "character": "Bruce Banner / Hulk",
+      "order": 6
+    },
+    {
+      "id": 1373737,
+      "name": "Florence Pugh",
+      "character": "Yelena Belova / Black Widow",
+      "order": 7
+    },
+    {
+      "id": 59693,
+      "name": "Liza Colón-Zayas",
+      "character": "Detective Jean DeWolff",
+      "order": 8
+    },
+    {
+      "id": 3141,
+      "name": "Marisa Tomei",
+      "character": "May Parker",
+      "order": 9
+    },
+    {
+      "id": 3489,
+      "name": "Naomi Watts",
+      "character": "E.V. (voice)",
+      "order": 10
+    },
+    {
+      "id": 829372,
+      "name": "Michael Mando",
+      "character": "Mac Gargan / Scorpion",
+      "order": 11
+    }
+  ],
+  "trailer": {
+    "name": "Final Trailer (Peter’s Journey)",
+    "key": "P3uI5sLosKU",
+    "site": "YouTube",
+    "type": "Trailer"
+  },
+  "keywords": [
+    "mind control",
+    "new york city",
+    "hero",
+    "mutation",
+    "secret identity",
+    "superhero",
+    "spider",
+    "villain",
+    "based on comic",
+    "sequel",
+    "transhumanism",
+    "super power",
+    "masked vigilante",
+    "spider web",
+    "aftercreditsstinger",
+    "marvel cinematic universe (mcu)"
+  ],
+  "productionCompanies": [
+    "Marvel Studios",
+    "Columbia Pictures",
+    "Pascal Pictures",
+    "TSG Entertainment"
+  ],
+  "productionCountries": [
+    "United States of America"
+  ]
+}

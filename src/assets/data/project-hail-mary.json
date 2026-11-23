@@ -1,0 +1,145 @@
+{
+  "id": 687163,
+  "slug": "project-hail-mary",
+  "title": "Project Hail Mary",
+  "originalTitle": "Project Hail Mary",
+  "tagline": "Believe in the Hail Mary.",
+  "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
+  "releaseDate": "2026-03-15",
+  "runtime": 157,
+  "status": "Released",
+  "originalLanguage": "en",
+  "spokenLanguages": [
+    "English"
+  ],
+  "genres": [
+    "Science Fiction",
+    "Adventure"
+  ],
+  "certification": "PG-13",
+  "voteAverage": 8.621,
+  "voteCount": 8998,
+  "popularity": 81.1664,
+  "budget": 200000000,
+  "revenue": 684639091,
+  "imdbId": "tt12042730",
+  "homepage": "https://www.amazon.com/salp/projecthailmary?hhf",
+  "poster": "/assets/img/project-hail-mary-poster.jpg",
+  "backdrop": "/assets/img/project-hail-mary-backdrop.jpg",
+  "directors": [
+    "Phil Lord",
+    "Christopher Miller"
+  ],
+  "writers": [
+    "Andy Weir",
+    "Drew Goddard"
+  ],
+  "cast": [
+    {
+      "id": 30614,
+      "name": "Ryan Gosling",
+      "character": "Ryland Grace",
+      "order": 0
+    },
+    {
+      "id": 7152,
+      "name": "Sandra Hüller",
+      "character": "Eva Stratt",
+      "order": 1
+    },
+    {
+      "id": 2096164,
+      "name": "James Ortiz",
+      "character": "Rocky (voice)",
+      "order": 2
+    },
+    {
+      "id": 2320708,
+      "name": "Lionel Boyce",
+      "character": "Carl",
+      "order": 3
+    },
+    {
+      "id": 1454946,
+      "name": "Milana Vayntrub",
+      "character": "Olesya Ilyukhina",
+      "order": 4
+    },
+    {
+      "id": 2131,
+      "name": "Ken Leung",
+      "character": "Yao",
+      "order": 5
+    },
+    {
+      "id": 3554544,
+      "name": "Priya Kansara",
+      "character": "Mary (voice)",
+      "order": 6
+    },
+    {
+      "id": 1749206,
+      "name": "Mia Soteriou",
+      "character": "Dr. Browne",
+      "order": 7
+    },
+    {
+      "id": 3074054,
+      "name": "Annelle Olaleye",
+      "character": "Olivia",
+      "order": 8
+    },
+    {
+      "id": 6080198,
+      "name": "Maya Eva Hosein",
+      "character": "Rekha",
+      "order": 9
+    },
+    {
+      "id": 3144892,
+      "name": "Bastian Antonio Fuentes",
+      "character": "Parker",
+      "order": 10
+    },
+    {
+      "id": 3796265,
+      "name": "Alice Brittain",
+      "character": "Hardware Store Cashier",
+      "order": 11
+    }
+  ],
+  "trailer": {
+    "name": "Returning To Theaters",
+    "key": "Q2UjkMU_ZWQ",
+    "site": "YouTube",
+    "type": "Trailer"
+  },
+  "keywords": [
+    "friendship",
+    "coma",
+    "based on novel or book",
+    "bravery",
+    "sun",
+    "language barrier",
+    "space travel",
+    "space mission",
+    "alien",
+    "space",
+    "memory loss",
+    "suicide mission",
+    "astronaut",
+    "scientist",
+    "science teacher",
+    "save the planet"
+  ],
+  "productionCompanies": [
+    "Lord Miller",
+    "Amazon MGM Studios",
+    "Pascal Pictures",
+    "Open Invite Entertainment",
+    "Waypoint Entertainment"
+  ],
+  "productionCountries": [
+    "United States of America"
+  ]
+}

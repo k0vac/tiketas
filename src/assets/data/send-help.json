@@ -1,0 +1,141 @@
+{
+  "id": 1198994,
+  "slug": "send-help",
+  "title": "Send Help",
+  "originalTitle": "Send Help",
+  "tagline": "Meet Linda Liddle... She's from strategy and planning. She's the boss now.",
+  "overview": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+  "releaseDate": "2026-01-22",
+  "runtime": 113,
+  "status": "Released",
+  "originalLanguage": "en",
+  "spokenLanguages": [
+    "English",
+    "Russian"
+  ],
+  "genres": [
+    "Horror",
+    "Thriller",
+    "Comedy"
+  ],
+  "certification": "R",
+  "voteAverage": 6.984,
+  "voteCount": 2529,
+  "popularity": 12.5235,
+  "budget": 40000000,
+  "revenue": 94041481,
+  "imdbId": "tt8036976",
+  "homepage": "https://www.20thcenturystudios.com/movies/send-help",
+  "poster": "/assets/img/send-help-poster.jpg",
+  "backdrop": "/assets/img/send-help-backdrop.jpg",
+  "directors": [
+    "Sam Raimi"
+  ],
+  "writers": [
+    "Damian Shannon",
+    "Mark Swift"
+  ],
+  "cast": [
+    {
+      "id": 53714,
+      "name": "Rachel McAdams",
+      "character": "Linda Liddle",
+      "order": 0
+    },
+    {
+      "id": 527393,
+      "name": "Dylan O'Brien",
+      "character": "Bradley Preston",
+      "order": 1
+    },
+    {
+      "id": 4477127,
+      "name": "Edyll Ismail",
+      "character": "Zuri",
+      "order": 2
+    },
+    {
+      "id": 109438,
+      "name": "Xavier Samuel",
+      "character": "Donovan",
+      "order": 3
+    },
+    {
+      "id": 352,
+      "name": "Dennis Haysbert",
+      "character": "Franklin",
+      "order": 4
+    },
+    {
+      "id": 145248,
+      "name": "Chris Pang",
+      "character": "Chase",
+      "order": 5
+    },
+    {
+      "id": 1743358,
+      "name": "Thaneth Warakulnukroh",
+      "character": "Boat Captain",
+      "order": 6
+    },
+    {
+      "id": 1446431,
+      "name": "Emma Raimi",
+      "character": "River",
+      "order": 7
+    },
+    {
+      "id": 1485593,
+      "name": "Kristy Best",
+      "character": "Polly Perera",
+      "order": 8
+    },
+    {
+      "id": 2300917,
+      "name": "Francesca Waters",
+      "character": "Barbara",
+      "order": 9
+    },
+    {
+      "id": 5981610,
+      "name": "Olivia Sawyer",
+      "character": "Applicant",
+      "order": 10
+    },
+    {
+      "id": 5406321,
+      "name": "Brad Flett",
+      "character": "Trainer",
+      "order": 11
+    }
+  ],
+  "trailer": {
+    "name": "Get Tickets Now",
+    "key": "cOmnmFz_Uzs",
+    "site": "YouTube",
+    "type": "Trailer"
+  },
+  "keywords": [
+    "bullying",
+    "role reversal",
+    "survival",
+    "struggle for survival",
+    "survival horror",
+    "deserted island",
+    "power struggle",
+    "colleagues",
+    "bullying in the workplace",
+    "plane crash",
+    "gender inequality",
+    "comedy thriller",
+    "comedy horror"
+  ],
+  "productionCompanies": [
+    "Raimi Productions",
+    "20th Century Studios",
+    "TSG Entertainment"
+  ],
+  "productionCountries": [
+    "United States of America"
+  ]
+}
